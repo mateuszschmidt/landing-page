@@ -71,21 +71,29 @@ a {
     color: #E5E7EB;
 }
 
+.placeholder {
+    display: flex;
+    background-color: rgb(127, 145, 166);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 800px;
+    color: #E5E7EB;
+    font-size: large;
+}
+
 .second {
     display: flex;
     flex-direction: column;
-    padding-left: 300px;
-    padding-right: 300px;
+    margin-left: 300px;
+    margin-right: 300px;
     align-items: center;
-
 }
 
 .information {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    display: flex;
-    justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -93,6 +101,7 @@ a {
 .images {
     display: flex;
     gap: 40px;
+    margin-bottom: 50px;
 }
 
 .image {
@@ -104,6 +113,16 @@ a {
     gap: 10px;
     width: 150px;
     color: gray;
+}
+
+.placeholder2 {
+    display: flex;
+    border: #3882f6;
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: medium;
 }
 
 button {
@@ -122,38 +141,55 @@ button {
     font-weight: 100;
     color: #1F2937;
     font-style: italic;
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.quoted {
-
+.thor {
+    display: flex;
+    justify-content: flex-end;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold;
 }
-
-
 
 .call {
     background-color: #3882f6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    display: flex;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    justify-content: space-between;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.callleft {
+    display:flex;
+    flex-direction: column;
+}
+
+.callright {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .footer {
     color: #E5E7EB;
-}
-
-.placeholder {
+    padding: 10px;
     display: flex;
-    background-color: rgb(127, 145, 166);
-    align-items: center;
     justify-content: center;
-    text-align: center;
-    width: 800px;
-    color: #E5E7EB;
-    font-size: large;
+    align-items: center;
 }
 
-.placeholder2 {
-    border: #3882f6;
-    height: 150px;
-    width: 150px;
-    border-style: solid;
-    border-radius: 8px;
-    border-width: medium;
-}
+
+
